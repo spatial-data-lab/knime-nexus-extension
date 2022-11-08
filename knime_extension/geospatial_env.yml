@@ -1,0 +1,22 @@
+name: geospatial_env
+channels:
+  - knime
+  - conda-forge
+dependencies:
+  - packaging
+  - python=3.9
+  - knime-extension
+  - knime-python-base
+  - geopandas
+  - keplergl
+  - libpysal
+  - mgwr
+  - osmnx
+  - pulp
+  - pysal
+  - seaborn
+  - pandarallel
+  - pip
+  - pip:
+    - pyecharts
+    - pydataverse
